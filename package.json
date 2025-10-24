@@ -1,0 +1,24 @@
+{
+  "name": "technoseed",
+  "version": "1.0.0",
+  "description": "repositorio del equipo 7",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Julio12155/technoseed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Julio12155/technoseed/issues"
+  },
+  "homepage": "https://github.com/Julio12155/technoseed#readme",
+  "keywords": [],
+  "dependencies": {
+    "espress": "^0.0.0",
+    "express-session": "^1.18.2"
+  }
+}
