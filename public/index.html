@@ -78,11 +78,11 @@
     </style>
 </head>
 <body>
-    <!-- Navbar -->
+
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <i class="fas fa-leaf"></i> Technoseed
+                <img src="logo.jpg" alt="Logo" style="height: 40px; width: 40px; border-radius: 50%; object-fit: cover;"> Technoseed
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -98,12 +98,26 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> Carrito (0)</a>
                     </li>
+                     <li class="nav-item guest-section">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">
+                            <i class="fas fa-user"></i> Iniciar Sesión
+                        </a>
+                    </li>
+                    <li class="nav-item auth-section">
+                        <a class="nav-link" href="#" id="username-display">
+                            <i class="fas fa-user-circle"></i> <span id="username-text"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item auth-section">
+                        <a class="nav-link" href="#" id="logout-btn">
+                            <i class="fas fa-sign-out-alt"></i> Salir
+                        </a>
+
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section class="hero">
         <div class="container">
             <h1 class="display-4 mb-3">Bienvenido a Technoseed</h1>
@@ -112,7 +126,6 @@
         </div>
     </section>
 
-    <!-- Catálogo -->
     <section id="catalogo" class="py-5">
         <div class="container">
             <h2 class="text-center mb-5">Nuestro Catálogo</h2>
